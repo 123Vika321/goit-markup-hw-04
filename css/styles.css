@@ -408,8 +408,6 @@ img {
   fill: white;
   display: flex;
   gap: 24px;
-  padding-bottom: 32px;
-
   list-style: 0;
   justify-content: center;
   margin-top: 8px;
@@ -451,6 +449,10 @@ img {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio:hover .overlay {
+  transform: translateY(0);
 }
 
 .portfolio-title {
@@ -571,9 +573,7 @@ img {
 
 .bottom-container {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
-  gap: 120px;
   flex-wrap: wrap;
 }
 
@@ -618,7 +618,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 120px;
 }
 
 .bottom-social-text {
